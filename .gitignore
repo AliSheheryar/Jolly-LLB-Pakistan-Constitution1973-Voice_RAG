@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtualenv (929 MB — recreate with `pip install -r requirements.txt`)
+.venv/
+venv/
+
+# Secrets
+.env
+*.key
+
+# Regenerable Chroma vector store — rebuild with `cli ingest`
+index/
+
+# Cached source HTML — refetched by `cli download`
+data/raw/
+
+# Editor / OS
+.claude/
+.vscode/
+.idea/
+.DS_Store
+
+# RAGAS generated eval artifacts (keep golden_dataset.jsonl + run_ragas.py)
+eval/ragas_results*.json
+eval/ragas_per_question*.csv
+eval/__pycache__/

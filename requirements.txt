@@ -1,0 +1,17 @@
+# --- Corpus acquisition (download + parse statutes) ---
+beautifulsoup4>=4.12
+lxml>=5.0
+
+# --- Retrieval: vector DB + sparse, fused with RRF ---
+chromadb>=0.5           # persistent vector store + built-in MiniLM embeddings (onnxruntime)
+rank-bm25>=0.2.2        # sparse BM25 side of the hybrid
+numpy>=1.24
+
+# --- Answer generation ---
+openai>=1.40            # OpenRouter is OpenAI-compatible; used for Llama 3.1
+
+# --- Optional: voice/telephony server (legal_rag/server.py, not used by the CLI) ---
+# anthropic>=0.40.0
+# fastapi>=0.110
+# uvicorn[standard]>=0.29
+# twilio>=9.0
