@@ -1,3 +1,5 @@
+![Constitution AI — Digital Frontiers in Pakistan's Law](assets/banner.png)
+
 # Legal RAG (Pakistani law) — CLI
 
 A retrieval-augmented question-answering CLI over **real Pakistani statutes**.
