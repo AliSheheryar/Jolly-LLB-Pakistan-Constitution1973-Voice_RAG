@@ -1,4 +1,4 @@
-![Constitution AI — Digital Frontiers in Pakistan's Law](assets/banner.png)
+![Jolly LLB — Pakistani-law RAG](assets/jolly-llb-frontend.png)
 
 # Legal RAG (Pakistani law) — CLI
 
